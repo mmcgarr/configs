@@ -1,5 +1,6 @@
 shell -${SHELL}
-caption always "%{= kc}%n:%t   %H %-21=%{= .m}%D %d.%m.%Y %0c"
+caption always "%{= kc}%w   %-31=%{= .m}%H | %D %d.%m.%Y %0c"
 defscrollback 1024
 startup_message off
 hardstatus on
+altscreen on
